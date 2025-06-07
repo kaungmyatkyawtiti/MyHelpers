@@ -1,0 +1,45 @@
+#!/bin/bash
+
+packages=(
+  htop
+  btop
+  fish
+  zsh
+  neovim
+  python3-neovim
+  evince
+  quodlibet
+  cmus
+  cava
+  kitty
+  mate-calc
+  meteo
+  calcurse
+  inkscape
+  blender
+  cheese
+  geany
+  emoji-picker
+  fzf
+  bat
+  fd-find
+  yt-dlp
+  gimp
+  libreoffice
+  ulauncher
+  gpaste-ui
+  obs-studio
+  protonvpn-cli
+  java-latest-openjdk
+  java-latest-openjdk-devel
+  zoxide
+  calc
+  fastfetch
+  trash-cli
+  stow
+  php
+  z
+  mariadb-server
+)
+
+sudo dnf in -y "${packages[@]}"
