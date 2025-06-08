@@ -13,7 +13,7 @@ packages=(
   cava
   kitty
   mate-calc
-  meteo
+  gnome-weather
   calcurse
   inkscape
   blender
