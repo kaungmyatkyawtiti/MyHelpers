@@ -40,6 +40,7 @@ packages=(
   php
   z
   mariadb-server
+  go
 )
 
 sudo dnf in -y "${packages[@]}"
