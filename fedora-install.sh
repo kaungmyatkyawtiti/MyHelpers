@@ -34,6 +34,7 @@ packages=(
   java-latest-openjdk-devel
   zoxide
   calc
+  cbonsai
   fastfetch
   trash-cli
   stow
