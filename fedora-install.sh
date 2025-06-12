@@ -14,12 +14,14 @@ packages=(
   kitty
   mate-calc
   gnome-weather
+  gnome-calendar
   calcurse
   inkscape
   blender
   cheese
   geany
   emoji-picker
+  timeshift
   fzf
   bat
   fd-find
