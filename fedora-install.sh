@@ -44,6 +44,8 @@ packages=(
   z
   mariadb-server
   go
+  eyeD3
+  beets
 )
 
 sudo dnf in -y "${packages[@]}"
