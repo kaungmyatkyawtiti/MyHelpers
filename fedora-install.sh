@@ -41,7 +41,6 @@ packages=(
   trash-cli
   stow
   php
-  z
   mariadb-server
   go
   eyeD3
