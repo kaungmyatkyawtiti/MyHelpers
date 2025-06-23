@@ -11,6 +11,7 @@ packages=(
   quodlibet
   cmus
   cava
+  conky
   kitty
   mate-calc
   gnome-weather
@@ -45,6 +46,7 @@ packages=(
   go
   eyeD3
   beets
+  gnome-todo
 )
 
 sudo dnf in -y "${packages[@]}"
