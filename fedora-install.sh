@@ -47,6 +47,7 @@ packages=(
   eyeD3
   beets
   gnome-todo
+  maven
 )
 
 sudo dnf in -y "${packages[@]}"
