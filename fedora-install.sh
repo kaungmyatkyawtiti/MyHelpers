@@ -47,6 +47,7 @@ packages=(
   eyeD3
   beets
   maven
+  task
 )
 
 sudo dnf in -y "${packages[@]}"
