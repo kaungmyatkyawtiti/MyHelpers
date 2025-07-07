@@ -7,7 +7,7 @@ if [ -z "$target_dir" ]; then
   exit 1
 fi
 
-# Expand ~
+# Expand ~ to full home path
 target_dir="${target_dir/#\~/$HOME}"
 
 if [ ! -d "$target_dir" ]; then
@@ -27,7 +27,10 @@ for file in *; do
   # Pad Day-N to Day-0N
   if echo "$newname" | grep -qE 'Day-[0-9]+-?\([^)]*\)-?'; then
     day_num=$(echo "$newname" | sed -nE 's/.*Day-([0-9]+)-?\([^)]*\)-?.*/\1/p')
-    padded_day=$(printf "%02d" "$day_num")
+
+    # Ensure base-10 interpretation to avoid octal issues
+    padded_day=$(printf "%02d" "$((10#$day_num))")
+
     newname=$(echo "$newname" | sed -E "s/Day-[0-9]+/Day-$padded_day/")
   fi
 
