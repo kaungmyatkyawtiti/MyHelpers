@@ -1,0 +1,71 @@
+# Gruvbox Dark Hard Theme for Taskwarrior (256-color)
+
+rule.precedence.color=deleted,completed,active,keyword.,tag.,uda.,project.,scheduled,overdue,due.today,due,blocked,blocking,recurring,tagged,pri.
+
+# basics
+color.active=bold color72                # Aqua (active)
+color.completed=color236 on color235     # Gray on dark0_hard
+color.deleted=color124 on color235       # Red on dark0_hard
+color.due.today=on color172              # Yellow (today)
+color.due=on color106                    # Green (due)
+color.overdue=on color124                # Red (overdue)
+color.blocking=color166                  # Orange
+color.blocked=color240                   # Dark gray
+color.recurring=color66                 # Blue (recurring)
+color.scheduled=on color66               # Blue (scheduled)
+color.tagged=color132                    # Purple (tagged)
+color.pri.H=bold color252                # Light foreground
+color.pri.M=color242                     # Dimmed foreground
+color.pri.L=color240                     # Low contrast gray
+color.pri.none=color242
+
+# missing attributes
+color.project.none=
+color.tag.none=
+color.pri.none=
+
+# personal color rules (replace "X" with your value)
+color.keyword.X=color132
+color.project.X=
+color.tag.next=color72
+color.uda.X=
+
+# interface
+color.alternate=on color236
+color.header=color252 on color236
+color.label=color250 on color238
+color.label.sort=color250 on color240
+color.footnote=on color239
+
+# burndown report
+color.burndown.pending=color235 on color106 
+color.burndown.started=color235 on color172
+color.burndown.done=color235 on color66
+
+# calendar
+color.calendar.holiday=color66
+color.calendar.today=bold color172
+color.calendar.due.today=on color172
+color.calendar.due=on color106
+color.calendar.overdue=on color124
+color.calendar.weekend=on color236
+color.calendar.weeknumber=color240
+
+# history report
+color.history.add=color235 on color106
+color.history.done=color235 on color66
+color.history.delete=color235 on color124
+
+# summary report (background color only)
+color.summary.bar=on color106
+color.summary.background=on color235
+
+# status
+color.error=color124 on color235
+color.debug=color252 on color236
+color.undo.before=color172
+color.undo.after=color106
+color.sync.added=color106
+color.sync.changed=color172
+color.sync.rejected=color124
+color.warning=bold color166

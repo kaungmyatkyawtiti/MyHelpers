@@ -46,7 +46,6 @@ packages=(
   go
   eyeD3
   beets
-  gnome-todo
   maven
 )
 
