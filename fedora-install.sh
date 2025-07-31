@@ -20,7 +20,6 @@ packages=(
   inkscape
   blender
   cheese
-  geany
   emoji-picker
   timeshift
   fzf
@@ -48,6 +47,7 @@ packages=(
   beets
   maven
   task
+  gnote
 )
 
 sudo dnf in -y "${packages[@]}"
