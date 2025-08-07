@@ -46,8 +46,10 @@ packages=(
   eyeD3
   beets
   maven
+  screenkey
   task
   gnote
+  gnome-clocks
 )
 
 sudo dnf in -y "${packages[@]}"
