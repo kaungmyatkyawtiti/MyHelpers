@@ -50,6 +50,7 @@ packages=(
   task
   gnote
   gnome-clocks
+  drawing
 )
 
 sudo dnf in -y "${packages[@]}"
