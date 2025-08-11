@@ -51,6 +51,7 @@ packages=(
   gnote
   gnome-clocks
   drawing
+  gromit-mpx
 )
 
 sudo dnf in -y "${packages[@]}"
