@@ -51,7 +51,6 @@ packages=(
   gnote
   gnome-clocks
   drawing
-  gromit-mpx
   foliate
 )
 
