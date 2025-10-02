@@ -1,15 +1,13 @@
 #!/bin/bash
 
-echo "stopping mongoDB..."
 sudo systemctl stop mongod
+echo "stopped MongoDB..."
 
-echo "stopping mariaDB..."
 sudo systemctl stop mariadb
+echo "stopped MariaDB..."
 
-echo "stopping PHP-fpm..."
 sudo systemctl stop php-fpm
+echo "stopped PHP-Fpm..."
 
-echo "stopping nginx..."
 sudo systemctl stop nginx
-
-echo "All daemons have been stopped."
+echo "stopping Nginx..."
