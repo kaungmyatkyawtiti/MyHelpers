@@ -10,4 +10,4 @@ sudo systemctl stop php-fpm
 echo "stopped PHP-Fpm..."
 
 sudo systemctl stop nginx
-echo "stopping Nginx..."
+echo "stopped Nginx..."
