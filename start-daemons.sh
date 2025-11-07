@@ -11,3 +11,6 @@ echo "started PHP-Fpm..."
 
 sudo systemctl start nginx
 echo "started Nginx..."
+
+sudo systemctl start postgresql
+echo "started Postgresql..."

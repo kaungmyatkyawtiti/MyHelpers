@@ -11,3 +11,6 @@ echo "stopped PHP-Fpm..."
 
 sudo systemctl stop nginx
 echo "stopped Nginx..."
+
+sudo systemctl stop postgresql
+echo "stopped Postgresql..."
