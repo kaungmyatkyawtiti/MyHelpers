@@ -52,6 +52,7 @@ packages=(
   gnome-clocks
   drawing
   foliate
+  papers
 )
 
 sudo dnf in -y "${packages[@]}"
